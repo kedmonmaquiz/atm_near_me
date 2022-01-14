@@ -19,7 +19,7 @@ public class ATMLocator {
 		ATMLocator aL = new ATMLocator();
 		
 		//Number of near ATMs to return
-		int number_of_ATMs = 4;
+		int number_of_ATMs = 4; //Assuming we want to return only 4 nearest ATMs
 		double current_location = 0.00;
 
 		Map<String,Double> allATMLocations = new HashMap<String,Double>();
